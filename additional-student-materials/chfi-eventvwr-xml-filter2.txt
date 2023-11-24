@@ -1,0 +1,23 @@
+<QueryList>
+  <Query Id="0" Path="Security">
+    <Select Path="Security">*[
+
+System[Provider[@Name='Microsoft-Windows-Security-Auditing']]
+
+and 
+(
+EventData/Data[@Name='SubjectLogonID'] = '0x5B6A7'
+
+or
+
+EventData/Data[@Name='TargetLogonID'] = '0x5B6A7'
+
+or
+
+EventData/Data[@Name='LogonID'] = '0x5B6A7'
+)
+]
+
+</Select>
+  </Query>
+</QueryList>

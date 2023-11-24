@@ -1,0 +1,35 @@
+<QueryList>
+  <Query Id="0" Path="Security">
+    <Select Path="Security">
+*[
+
+System[(EventID=4688 or EventID=4624)]
+
+and
+
+(
+EventData/Data[@Name="SubjectUserName"] = "kamil"
+
+or
+
+EventData/Data[@Name="TargetUserName"] = "kamil"
+)
+
+and
+
+(
+EventData/Data[@Name="SubjectLogonId"] = "0xd3bb46"
+
+or
+
+EventData/Data[@Name="TargetLogonId"] = "0xd3bb46"
+
+or
+
+EventData/Data[@Name="LogonId"] = "0xd3bb46"
+)
+
+]
+</Select>
+  </Query>
+</QueryList>

@@ -1,0 +1,16 @@
+<QueryList>
+  <Query Id="0" Path="Security">
+    <Select Path="Security">
+*[
+
+System[Provider[@Name='Microsoft-Windows-Security-Auditing']]
+
+and
+
+EventData/Data[@Name='ProcessID'] = '4132'
+
+
+]
+</Select>
+  </Query>
+</QueryList>

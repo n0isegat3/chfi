@@ -1,0 +1,17 @@
+https://blogs.technet.microsoft.com/rhalbheer/2011/06/16/ten-immutable-laws-of-security-version-2-0/
+
+https://github.com/fireeye/flare-vm
+
+http://www.kazamiya.net/en/WinFEforWin10
+
+https://ericzimmerman.github.io/#!index.md
+
+https://www.virustotal.com
+
+https://learn.microsoft.com/en-us/windows-server/identity/ad-ds/manage/understand-security-identifiers
+
+https://attack.mitre.org/
+
+https://github.com/volatilityfoundation/volatility3
+
+https://gchq.github.io/CyberChef

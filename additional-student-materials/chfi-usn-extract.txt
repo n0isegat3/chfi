@@ -1,0 +1,3 @@
+T:\NirSoft\Schicht\ExtractUsnJrnl\ExtractUsnJrnl.exe /devicepath:C: /outputpath:C:\Temp /outputname:journal.bin
+
+T:\NirSoft\Schicht\UsnJrnl2Csv\UsnJrnl2Csv.exe
